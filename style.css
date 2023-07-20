@@ -1,17 +1,19 @@
 body{
     overflow-x: hidden;
+    margin:auto;
     
 }
 /*---nav styly---*/
 .navbar {
     
- width: 100%;
+ max-width: 1200px;
  height: 50px;
     background-color:#fff;
     justify-content: space-between;
     display: flex;
     padding: 10px 15px;
     text-decoration: none;
+    margin: auto;
     
 box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
@@ -19,7 +21,9 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 
     display: flex;
     align-items: center;
-    margin-left:  30px;
+    margin-left: 30px;
+    
+
 
     
     
@@ -33,6 +37,7 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 .second-part-nav img{
     width: 3%;
+    margin: auto;
 
 }
 .second-part-nav{
@@ -44,8 +49,9 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 /*banner section*/
 
 .banner-section{
-    width:100%;
+    max-width: 1200px;
 height: 90%%;
+ margin: auto;
 display: flex;
 
 }
@@ -68,6 +74,7 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 text-transform: uppercase;
+margin-top: 30vh;
 }
 .goat{
     text-align: center;
@@ -105,8 +112,9 @@ background: #4EC5F7;
 
 /*main section style*/
 .main-section-banner{
-    width: 100%;
-    height: 500px;
+    max-width: 1240px;
+    height: 460px;
+    margin:auto ;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 
 }
@@ -118,6 +126,10 @@ background: #4EC5F7;
 padding: 5px 10px;
 border-radius: 48px;
 background-color: #FF42A5;
+}
+.sub-banner-image{
+    max-width: 700px;
+    margin: auto;
 }
 .we-are{
     text-align: right;
@@ -133,18 +145,171 @@ text-align: justify;
 
 /*...onlin game funny videos ..*/
 .funny-video{
-    width: 1440px;
-    height: 550px;
+    max-width: 1150px;
+    height: 700px;
+    margin: auto;
+    align-items: center;
     
+    
+}
+.onlin-game-heading{
+    color: #0B0223;
+
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 50px;
+}
+.full-text{
+    text-align: center;
 }
 .videoss{
     display: flex;
-    width: 1440px;
+    max-width: 1440px;
     height: 950px;
-    gap: 10px;
+    gap: 5px;
+    margin: auto;
     
+}
+
+
+.instantly{
+    max-width: 1100px;
+    height: 700px;
+    margin: auto;
 
 }
+.main-mini{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    padding-right: 50px;
+    text-align: justify;
+}
+.main{
+    position: relative;
+    margin: auto;
+    width: 450px;
+    height: 350px;
+    padding-left: 300px;
+
+    
+}
+.mini{
+    position: relative;
+    bottom: 70px;
+    margin: auto;
+    width: 400px;
+    height: 319px;
+    padding-left: 200px;
+}
+.heading h3{
+    text-align:right;
+font-family: Work Sans;
+font-size: 25px;
+font-style: normal;
+font-weight: 600px;
+line-height: 60px; /* 125% */
+margin: auto;
+
+width: 400px;
+text-align: justify;
+
+}
+.heading p{
+    padding: 0%;
+    color: #534C64;
+text-align: right;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+width: 300px;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+
+text-align: justify;
+}
+
+
+/*....last section*/
+.last-secion{
+    max-width: 1200px;
+    margin: auto;
+    max-height: 50%;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.section-icon{
+    display: flex;
+    max-height: 1200px;
+    max-height:800px ;
+    margin: auto;
+    justify-content: space-between;
+}
+.section-icon2{
+    display:flex;
+    justify-content: space-between;
+    margin: auto;
+    flex-basis: 20px 30px 20px;
+
+}
+.section-icon p:hover{
+    color: #FF42A5; 
+    
+}
+.section-icon p:hover{
+    border:solid 2px;
+    
+}
+.section-icon2 p:hover{
+    color: #FF42A5;
+}
+.section-icon2 p:hover{
+    border: solid 2px;
+}
+
+
+
+
+/*.......footer....*/
+footer{
+    background: #0B0223;
+    max-width: 100%;
+    min-height: 800px;
+    margin: auto;
+    color: #000;
+}
+.container{
+    max-width: 100%;
+    color: #fff;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    margin: 0px;
+    justify-content: center;
+}
+.story
+{
+    display: flex;
+    color: #fff;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-right: 10px;
+    align-items: center;
+    max-width: 100%;
+    
+}
+
+
+
+
 
 
 
